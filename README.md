@@ -1,23 +1,25 @@
-# Sinha Homes – HTML website
+# Sinha Homes – final website
 
-A responsive, static website built with HTML, CSS and vanilla JavaScript.
+The production-ready website source is maintained in `index.html`.
 
-## Files
-- `index.html` – page content and structure
-- `styles.css` – responsive visual design
-- `script.js` – mobile navigation and current year
+## Technology
+- HTML5
+- CSS3 (embedded in the HTML file)
+- Vanilla JavaScript (embedded in the HTML file)
+- Three.js r128 for the scroll-driven 3D house-building hero scene
+- Google Fonts for typography
 
 ## Preview locally
-Open `index.html` in a browser, or use the VS Code Live Server extension.
+Open `index.html` in a modern browser. An internet connection is required for the external Three.js and Google Fonts libraries and any externally hosted image assets.
 
-## Publish to test.sinhahomes.lk
-Upload the contents of the repository (not a ZIP archive) to the document root for the `test` subdomain using cPanel File Manager or FTP. Keep the entry file named `index.html`.
+## Deployment
+Upload `index.html` to the document root of the target domain or subdomain using cPanel File Manager or FTP. Ensure it is named `index.html`.
 
-## Images and content
-The page uses image assets hosted on `www.sinhahomes.lk` and content based on the existing Sinha Homes website. An internet connection is required for those images and Google Fonts to load. Check the content and contact details before publishing.
+## Before publishing
+- Test the page on desktop and mobile browsers.
+- Verify telephone, WhatsApp and email contact details.
+- Confirm that all referenced image assets and external libraries load correctly.
+- Test the English/Sinhala language switch, navigation, house model pages, cost estimator and enquiry flows.
+- Confirm that the scroll-based 3D hero works on target mobile devices and that its fallback presentation is acceptable when WebGL is unavailable.
 
-## Notes
-- House-model links open the existing model detail pages.
-- The WhatsApp link opens a chat with 0772 145 212.
-- The enquiry/contact section uses telephone, email and WhatsApp links; no form backend has been added.
-- The current SH monogram is a text-based placeholder. Replace it with the official Sinha Homes logo asset before launch for exact brand consistency.
+The HTML includes the page styling and application scripts. No separate `styles.css` or `script.js` files are required.
