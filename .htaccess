@@ -1,0 +1,15 @@
+Options -Indexes
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Use HTTPS and the official www hostname.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.sinhahomes\.lk$ [NC]
+RewriteRule ^ https://www.sinhahomes.lk%{REQUEST_URI} [R=301,L]
+
+# Serve existing files and directories normally; send other application routes to the SPA.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ index.html [L]
