@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.sinhahomes.lk/</loc></url>
+  <url><loc>https://www.sinhahomes.lk/about/</loc></url>
+  <url><loc>https://www.sinhahomes.lk/services/</loc></url>
   <url><loc>https://www.sinhahomes.lk/house-designs/</loc></url>
   <url><loc>https://www.sinhahomes.lk/projects/</loc></url>
-  <url><loc>https://www.sinhahomes.lk/house-construction/</loc></url>
-  <url><loc>https://www.sinhahomes.lk/architectural-design/</loc></url>
-  <url><loc>https://www.sinhahomes.lk/about/</loc></url>
-  <url><loc>https://www.sinhahomes.lk/contact/</loc></url>
-  <url><loc>https://www.sinhahomes.lk/services/</loc></url>
   <url><loc>https://www.sinhahomes.lk/why-choose-us/</loc></url>
   <url><loc>https://www.sinhahomes.lk/cost-estimator/</loc></url>
+  <url><loc>https://www.sinhahomes.lk/contact/</loc></url>
 </urlset>
